@@ -10,11 +10,11 @@ int main() {
     for (i = 0; i < 4; i++)
         print('*', count);
     cout << endl;
-    
+
     for (i = 0; i < 6; i++)
         print('%', count);
     cout << endl;
-    
+
     cout <<"print() been called for " << count << " times." <<endl;
     return 0;
 }
