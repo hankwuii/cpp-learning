@@ -2,16 +2,25 @@
 
 using namespace std;
 
-void sum(int &, int &);
+void print(char , int &);
 
 int main() {
-    int a, b;
-    cin >> a >> b;
-    sum(a, b);
-    cout << a << " " << b << endl;
+    int i, count = 0;
+
+    for (i = 0; i < 4; i++)
+        print('*', count);
+    cout << endl;
+    
+    for (i = 0; i < 6; i++)
+        print('%', count);
+    cout << endl;
+    
+    cout <<"print() been called for " << count << " times." <<endl;
     return 0;
 }
 
-void sum(int &i, int &j) {
-    i = i + j;
+void print(char ch, int &j) {
+    cout << ch;
+    j++;
+    return;
 }
