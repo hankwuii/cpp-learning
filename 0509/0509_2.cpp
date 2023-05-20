@@ -2,7 +2,7 @@
 
 using namespace std;
 
-int sum(int start = 1, int end = 10, int step = 1);  //可以預設值,但一定不會更改的值必須放在左邊
+int sum(int start = 1, int end = 10, int step = 1);  //可以預設值,但一定不會更改的值必須放在右邊
 double sum(double, double);  //函數的多載,名稱相同的函數,可以引數個數不同or引數個數相同、型態不同
 
 int main() {
